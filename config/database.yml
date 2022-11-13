@@ -23,8 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: database-1
-  host: database-1.c4ls5mb8gywu.ap-northeast-1.rds.amazonaws.com
+  database: article_api_development
   username: postgres
   password: postgres
   port: 5432
